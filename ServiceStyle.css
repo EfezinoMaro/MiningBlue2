@@ -1,0 +1,1589 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body{height: auto;}
+header{
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+}
+nav{
+  background: rgb(0, 73, 133);
+  height: 80px;
+}
+nav .logo{
+  width: 40%;
+}
+nav button > span{
+  color: rgb(0, 0, 0);   
+}
+nav .navbar-toggler{
+   background-color: rgba(255, 255, 255, 0.788);
+}
+nav img{
+  width: 120px;
+  /* float: left; */
+  margin-left: 10%;
+}
+div >.navcont{
+  width: 60%;
+}
+nav ul .nav-item{
+  width: auto;
+  padding: 18px;
+}
+nav ul .nav-item a:hover{
+  color: black;
+}
+.dropdow{
+  background: rgb(0, 73, 133);
+  width:170px;
+  height:0px;
+  margin-top: 20px;
+  margin-left: -10px;
+  padding-left: 0rem;
+  position:absolute;
+  text-align: left;
+  z-index: 2;
+  overflow:hidden ;
+transition: 0.6s ease-in-out;
+}
+.dropbtn:hover .dropdow{
+height:216px; overflow: hidden;
+}
+.dropdow li{
+  list-style: none; 
+  padding: 15px;
+}
+.dropdow li:hover{
+  background-color: rgba(0, 0, 0, 0.371);
+}
+
+/* ===========Services Style=============== */
+
+#ba{
+  background-color: #243238;;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.be{
+  text-align: center;
+  margin-top:50px;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.be span{
+  background-color: rgb(0,73,133);
+  padding: 10px 20px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.bi{
+  text-align: center;
+  /* margin-top: 30px; */
+}
+.bi a{
+  text-decoration: none;
+  color:white ;
+  transition: .4s ease-in-out;
+}
+.bi a:hover{
+  color: rgba(255, 60, 0, 0.884);
+  transition: .4s ease-in-out;
+}
+.bo{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+#mar{
+	width: 75%;
+  margin: 0 auto 0 auto;
+	height:500px;
+	overflow: hidden;
+	display: flex;
+  /* background-color:lightblue; */
+	justify-content: center;
+}
+.apr{
+	background-color:#212529;
+	width: 29.33%;
+	height: 450px;
+	margin:50px 1% 50px 2%;
+  padding: 1.5%;
+  transition:.4s ease-in-out;
+}
+
+
+.apr:hover .jul {
+	transform: scale(1.1);
+	transition:.4s ease-in-out;
+  filter: saturate(var(--value, 5));
+}
+.apr h4{
+  text-align: center;
+  margin-top: 35px;
+  transition:.4s ease-in-out;
+  color: white;
+}
+.apr:hover h4{
+	color:rgb(0,73,133);
+	transition:.4s ease-in-out;
+}
+.apr:hover .sept{
+  /* color: rgb(0,73,133); */
+  transition: .4s ease-in-out;
+}
+.may{
+	background-color:#212529;
+	width: 29.33%;
+	height: 450px;
+  padding: 1.5%;
+	margin:50px 1% 50px 1%;
+  transition:.4s ease-in-out;
+}
+.may h4{
+  text-align: center;
+  margin-top: 35px;
+  color: white;
+  transition:.4s ease-in-out;
+}
+.may:hover h4{
+	color:rgb(0,73,133);
+	transition:.4s ease-in-out;
+}
+.may:hover .sept{
+  /* color: rgb(0,73,133); */
+  transition: .4s ease-in-out;
+}
+.may:hover .jul{
+	transform: scale(1.1);
+	transition:.4s ease-in-out;
+  filter: saturate(var(--value, 5));
+}
+.jun{
+	background-color:#212529;
+	width: 29.33%;
+	height: 450px;
+  padding: 1.5%;
+  transition:.4s ease-in-out;
+    margin:50px 2% 50px 1%;
+}
+.jun h4{
+  text-align: center;
+  margin-top: 35px;
+  color: white;
+  transition:.4s ease-in-out;
+}
+.jun:hover h4{
+	color:rgb(0,73,133);
+	transition:.4s ease-in-out;
+}
+.jun:hover .sept{
+  /* color: rgb(0,73,133); */
+  transition: .4s ease-in-out;
+}
+.jun:hover .jul{
+	transform: scale(1.1);
+  transition:.4s ease-in-out;
+  filter: saturate(var(--value, 5));
+}
+
+.jul{
+	background-size: cover;
+  height: 200px;
+  width: 100%;
+  transition:.4s ease-in-out;   
+}
+.sept{
+	margin-top: 15px;
+	color: #777777;
+	line-height: 1.5em;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  transition:.4s ease-in-out;
+}
+
+#da{
+  background-color: #495057;
+  height: 450px;
+  margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+
+}
+#de{
+  background-color: black;
+  height:450px;
+  width: 25%;
+  float: left;
+  padding: 3%;
+}
+#de h1{
+color: white;
+}
+#de p{
+  color: white;
+  margin-top: 40px;
+}
+#di{
+  height:450px;
+  width: 25%;
+  float: left;
+  padding: 3%;
+  transition: .4s ease-in-out;
+
+}
+#dione{
+  background-color: rgb(0,73,133);
+  height: 70px;
+  border: 1px solid  rgb(0,73,133);
+  transform: rotate(45deg);
+  width: 25%;
+  margin:5% auto 0 auto;
+  transition: .4s ease-in-out;
+   display: flex;
+  
+}
+#dione svg{
+  color: white;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+#di h4{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  transition: .4s ease-in-out;
+}
+#di p{
+  text-align: center;
+  color: white;
+}
+#di:hover #dione{
+   border: 1px solid white;
+   transition: .4s ease-in-out;
+   
+   background-color: transparent;
+}
+#di:hover svg{
+  color: rgb(0,73,133);
+}
+#di:hover h4{
+  color: rgb(0,73,133);
+}
+
+#do{
+  height:450px;
+  width: 25%;
+  float: left;
+  padding: 3%;
+  transition: .4s ease-in-out;
+}
+
+#do h4{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  transition: .4s ease-in-out;
+}
+#do p{
+  text-align: center;
+  color: white;
+}
+#do:hover #dione{
+   border: 1px solid white;
+   transition: .4s ease-in-out;
+   
+   background-color: transparent;
+}
+#do:hover svg{
+  color: rgb(0,73,133);
+}
+#do:hover h4{
+  color: rgb(0,73,133);
+}
+
+#du{
+  height:450px;
+  width: 25%;
+  float: left;
+  padding: 3%;
+  transition: .4s ease-in-out;
+}
+
+#du h4{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  transition: .4s ease-in-out;
+}
+#du p{
+  text-align: center;
+  color: white;
+}
+#du:hover #dione{
+   border: 1px solid white;
+   transition: .4s ease-in-out;
+   
+   background-color: transparent;
+}
+#du:hover svg{
+  color: rgb(0,73,133);
+}
+#du:hover h4{
+  color: rgb(0,73,133);
+}
+
+.fa{
+  max-width: 750px;
+  margin: auto;
+ width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.row {
+  margin: 0 1% 0 1%;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+
+ display: none;
+  /* display: none; Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 1px;
+  position: relative;
+  width:auto;
+  float: left;
+transition: .4s ease-in-out;
+}
+#cont:hover{
+  filter: grayscale(100%);
+  transition: .4s ease-in-out;
+}
+#cont1:hover{
+  filter: saturate(var(--value, 5));
+  transition: .4s ease-in-out;
+}
+.content:hover .overlay {
+bottom: 0;
+height: 100%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+display: block;
+}
+
+/* Style the buttons */
+#myBtnContainer{
+  width: 100%;
+  height:60px;
+  display: inline-block;
+  text-align: center;
+
+}
+#myBtnContainer button{
+color: white;
+
+}
+.btn {
+border: none;
+outline: none;
+padding: 12px 16px;
+background-color: transparent;
+cursor: pointer;
+height: 60px;
+transition: .4s ease-in-out;
+}
+
+.btn:hover {
+background-color: transparent;
+font-size: 20px;
+transition: .4s ease-in-out;
+
+}
+
+.btn.active {
+background-color:transparent;
+}
+#ta{
+  background-color: #1f2020;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.te{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  margin-top: 20px;
+}
+
+#ta h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+  #ta1{
+    width: 250px;
+    height: 60px;
+    overflow: hidden;  
+    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  }
+#ta1 a button{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0,73,133);
+  border: none;
+
+  transition: .4s ease-in-out;
+  height: 60px;
+  width: 120px;
+  font-size: 16px;
+} 
+#ta1 a button:hover{
+  color:white;
+  background-color:transparent;
+  transition: .4s ease-in-out;
+  border:1px solid rgb(0,73,133) ;
+}
+.tu{
+  text-decoration: none;
+ background-color: #1f2020;
+  color: white;
+  border: none;
+  transition: .4s ease-in-out;
+  height:60px;
+  overflow: hidden;
+  width: 120px;
+  font-size: 16px;
+  border: 1px solid white;
+} 
+ .tu:hover{
+ background-color:rgb(0,73,133) ;
+  color: white;
+  transition: .4s ease-in-out;
+  border:0;
+}
+
+
+    /* FOOTER */
+
+    footer{
+      width: 100%;
+      height:auto;
+      background-color: rgba(0, 0, 0, 0.938);
+      overflow: hidden;
+  }
+  .Ftop{
+      width: 100%;
+      height: auto;
+  }
+  .Fcom{
+      width: 30%;
+      height: auto;
+      /* background-color: red; */
+      float: left;
+      padding: 70px;
+      margin: auto 1.5%;
+      color: white;
+      overflow: hidden;
+  }
+  .Fcom h3{
+      margin-bottom: 30px;
+  }
+  .Fcom img{
+      width: 100%;
+      opacity: 0.5;
+  }
+  .Fcom p{
+      color: rgba(255, 255, 255, 0.658);
+      line-height: 30px;
+  }
+  .Fcom ul {
+      padding: 0;
+  }
+  .Fcom ul li {
+      list-style:square;
+      line-height: 40px;
+  }
+  .Fcom ul li a{
+      text-decoration: none;
+      color: inherit;
+      transition: 0.4s;
+  }
+  .Fcom ul li a:hover{
+      color: rgb(0, 73, 133);
+  }
+
+  .Fbottom{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+  }
+  .Fbottom .FBcom{
+      width: 30%;
+      height: 150px;
+      float: left;
+      color: white;
+      padding: 30px;
+      margin: 50px 1.5%;
+      transition: 0.4s ease-in-out;
+      color: white;
+      outline: 1px solid rgba(255, 255, 255, 0.226);
+  }
+  .FBcom:hover{
+      outline-color:rgb(0, 73, 133);
+  }
+  .FBcom p{
+      color: rgba(255, 255, 255, 0.562);
+  }
+  footer hr{
+      color:rgb(255, 255, 255);
+  }
+  .Flast{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      color: white;
+  }
+  .Flast .FCright{
+      width: 40%;
+      float: left;
+  }
+  .FCright p{
+      font-size: 14px;
+      margin: 30px;
+  }
+  .FCright a{
+      text-decoration: none;
+      color: rgb(0, 73, 133);
+      transition: 0.2s ease-in-out;
+  }
+  .FCright a:hover{
+      color: rgb(54, 124, 180);
+  }
+  .Flast .Ficon{
+      width: 40%;
+      float: right;
+      text-align: right;
+      margin: 0 20px;
+  }
+  .iconsquare{
+      width: auto;
+      height: auto;
+      float: right;
+      margin: 20px 18px;
+      padding: 1px;
+      transform: rotate(45deg);
+      background-color: rgba(0, 0, 0, 0);
+      outline: 1px solid rgb(0, 73, 133);
+      transition: 0.8s ease-in-out;
+  }
+  .iconsquare:hover{
+      background-color: rgb(0, 73, 133);
+  }
+  .Ficon img{
+      width: 40px;
+      transform: rotate(-45deg);
+      /* filter:grayscale(100%); */
+  }
+  .FBcom img{
+      width: 50px;
+      float: left;
+  }
+  .FBcom .FBadd{
+      float: left;
+      margin: 0 0 0 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+
+
+
+
+
+/* ======================Tab Responsiveness for Services======================== */
+
+@media screen and (max-width:990px) {
+
+
+  #ba{
+    background-color: #243238;;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .be{
+    text-align: center;
+    margin-top:50px;
+    color: white;
+  }
+  .bi{
+    text-align: center;
+    /* margin-top: 30px; */
+  }
+  .bi a{
+    text-decoration: none;
+    color:white ;
+    transition: .4s ease-in-out;
+  }
+  .bi a:hover{
+    color: rgb(0,73,133);
+    transition: .4s ease-in-out;
+  }
+  .bo{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  #mar{
+    width: 100%;
+    margin: 0;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .apr{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    margin:0;
+    padding: 1.5%;
+    transition:.4s ease-in-out;
+  }
+  
+  
+  .apr:hover .jul {
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  .apr h4{
+    text-align: center;
+    margin-top: 35px;
+    transition:.4s ease-in-out;
+    color: white;
+  }
+  .apr:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .apr:hover .sept{
+    color: rgb(0,73,133);
+    transition: .4s ease-in-out;
+  }
+  .may{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    padding: 1.5%;
+    margin:50px 1% 50px 1%;
+    transition:.4s ease-in-out;
+  }
+  .may h4{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  .may:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .may:hover .sept{
+    color: rgb(0,73,133);
+    transition: .4s ease-in-out;
+  }
+  .may:hover .jul{
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  .jun{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    padding: 1.5%;
+    transition:.4s ease-in-out;
+      margin:0;
+  }
+  .jun h4{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  .jun:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .jun:hover .sept{
+    color: rgb(0,73,133);
+    transition: .4s ease-in-out;
+  }
+  .jun:hover .jul{
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  
+  .jul{
+    background-size: cover;
+    height: 200px;
+    width: 50%;
+    margin-left:25% ;
+    transition:.4s ease-in-out;   
+  }
+  .sept{
+    margin-top: 10px;
+    color: #777777;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  
+  #da{
+    background-color: #495057;
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  #de{
+    background-color: black;
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+  }
+  #de h1{
+  color: white;
+  font-size: 30px;
+  }
+  #de p{
+    color: white;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  #di{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  
+  }
+  #dione{
+    background-color: rgb(0,73,133);
+    height: 55px;
+    border: 1px solid  rgb(0,73,133);
+    transform: rotate(45deg);
+    width: 12%;
+    margin:5% auto 0 auto;
+    transition: .4s ease-in-out;
+     display: flex;
+    
+  }
+  #dione svg{
+    color: white;
+    margin: auto;
+    transform: rotate(-45deg);
+    height: 10;
+    width: 10;
+  }
+  #di h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #di p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #di:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #di:hover svg{
+    color: rgb(0,73,133);
+  }
+  #di:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  #do{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  }
+  
+  #do h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #do p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #do:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #do:hover svg{
+    color: rgb(0,73,133);
+  }
+  #do:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  #du{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  }
+  
+  #du h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #du p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #du:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #du:hover svg{
+    color: rgb(0,73,133);
+  }
+  #du:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  .fa{
+    max-width: 750px;
+    margin: auto;
+   width: 80%;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  .row {
+    margin: 0 1% 0 1%;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    /* width: 32.33%; */
+  
+   display: none;
+    /* display: none; Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  #cont:hover{
+    filter: grayscale(100%);
+    transition: .4s ease-in-out;
+  }
+  #cont1:hover{
+    filter: saturate(var(--value, 5));
+    transition: .4s ease-in-out;
+  }
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+  display: block;
+  }
+  
+  /* Style the buttons */
+  #myBtnContainer{
+    width: 100%;
+    height:60px;
+    display: inline-block;
+    text-align: center;
+  
+  }
+  #myBtnContainer button{
+  color: white;
+  
+  }
+  .btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 60px;
+  transition: .4s ease-in-out;
+  }
+  
+  .btn:hover {
+  background-color: transparent;
+  font-size: 20px;
+  transition: .4s ease-in-out;
+  
+  }
+  
+  .btn.active {
+  background-color:transparent;
+  }
+  #ta{
+    background-color: #050505d0;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+
+.te{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  margin-top: 20px;
+}
+#ta h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#ta1{
+  width:45%;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}.ti{
+    text-decoration: none;
+   background-color:transparent;
+    color: white;
+    border: none;
+    transition: .4s ease-in-out;
+    height:60px;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 38px;
+  } 
+  .tu{
+    text-decoration: none;
+   background-color: #1f2020;
+    color: white;
+    border: none;
+    transition: .4s ease-in-out;
+    padding: 0;
+    height:60px;
+    overflow: hidden;
+    width: 40%;
+    font-size: 10px;
+    border: 1px solid white;
+  } 
+   .tu:hover{
+ background-color:rgb(0,73,133) ;
+ color:rgb(0,73,133) ;
+  transition: .4s ease-in-out;
+  border:0;
+}
+}
+
+
+/* =====================Phone Responsiveness for Services======================== */
+
+@media screen and (max-width:700px) {
+
+
+  #ba{
+    background-color: #243238;;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .be{
+    text-align: center;
+    margin-top:50px;
+    color: white;
+  }
+  .bi{
+    text-align: center;
+    /* margin-top: 30px; */
+  }
+  .bi a{
+    text-decoration: none;
+    color:white ;
+    transition: .4s ease-in-out;
+  }
+  .bi a:hover{
+    color: rgb(0,73,133);
+    transition: .4s ease-in-out;
+  }
+  .bo{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  #mar{
+    width: 100%;
+    margin: 0;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .apr{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    margin:0;
+    padding: 1.5%;
+    transition:.4s ease-in-out;
+  }
+  
+  
+  .apr:hover .jul {
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  .apr h4{
+    text-align: center;
+    margin-top: 35px;
+    transition:.4s ease-in-out;
+    color: white;
+  }
+  .apr:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .apr:hover .sept{
+    /* color: rgb(0,73,133); */
+    transition: .4s ease-in-out;
+  }
+  .may{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    padding: 1.5%;
+    margin:50px 1% 50px 1%;
+    transition:.4s ease-in-out;
+  }
+  .may h4{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  .may:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .may:hover .sept{
+    /* color: rgb(0,73,133); */
+    transition: .4s ease-in-out;
+  }
+  .may:hover .jul{
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  .jun{
+    background-color:#212529;
+    width: 100%;
+    height: 400px;
+    padding: 1.5%;
+    transition:.4s ease-in-out;
+      margin:0;
+  }
+  .jun h4{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  .jun:hover h4{
+    color:rgb(0,73,133);
+    transition:.4s ease-in-out;
+  }
+  .jun:hover .sept{
+    /* color: rgb(0,73,133); */
+    transition: .4s ease-in-out;
+  }
+  .jun:hover .jul{
+    transform: scale(1.1);
+    transition:.4s ease-in-out;
+    filter: saturate(var(--value, 5));
+  }
+  
+  .jul{
+    background-size: cover;
+    height: 200px;
+    width: 50%;
+    margin-left:25% ;
+    transition:.4s ease-in-out;   
+  }
+  .sept{
+    margin-top: 10px;
+    color: #777777;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    transition:.4s ease-in-out;
+  }
+  
+  #da{
+    background-color: #495057;
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  #de{
+    background-color: black;
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+  }
+  #de h1{
+  color: white;
+  font-size: 30px;
+  }
+  #de p{
+    color: white;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  #di{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  
+  }
+  #dione{
+    background-color: rgb(0,73,133);
+    height: 55px;
+    border: 1px solid  rgb(0,73,133);
+    transform: rotate(45deg);
+    width: 12%;
+    margin:5% auto 0 auto;
+    transition: .4s ease-in-out;
+     display: flex;
+    
+  }
+  #dione svg{
+    color: white;
+    margin: auto;
+    transform: rotate(-45deg);
+    height: 10;
+    width: 10;
+  }
+  #di h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #di p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #di:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #di:hover svg{
+    color: rgb(0,73,133);
+  }
+  #di:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  #do{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  }
+  
+  #do h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #do p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #do:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #do:hover svg{
+    color: rgb(0,73,133);
+  }
+  #do:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  #du{
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 3%;
+    transition: .4s ease-in-out;
+  }
+  
+  #du h4{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    transition: .4s ease-in-out;
+  }
+  #du p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  #du:hover #dione{
+     border: 1px solid white;
+     transition: .4s ease-in-out;
+     
+     background-color: transparent;
+  }
+  #du:hover svg{
+    color: rgb(0,73,133);
+  }
+  #du:hover h4{
+    color: rgb(0,73,133);
+  }
+  
+  .fa{
+    max-width: 750px;
+    margin: auto;
+   width: 80%;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  .row {
+    margin: 0 1% 0 1%;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    /* width: 32.33%; */
+  
+   display: none;
+    /* display: none; Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  #cont:hover{
+    filter: grayscale(100%);
+    transition: .4s ease-in-out;
+  }
+  #cont1:hover{
+    filter: saturate(var(--value, 5));
+    transition: .4s ease-in-out;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+  display: block;
+  }
+  
+  /* Style the buttons */
+  #myBtnContainer{
+    width: 100%;
+    height:60px;
+    display: inline-block;
+    text-align: center;
+  
+  }
+  #myBtnContainer button{
+  color: white;
+  
+  }
+  .btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 60px;
+  transition: .4s ease-in-out;
+  }
+  
+  .btn:hover {
+  background-color: transparent;
+  font-size: 20px;
+  transition: .4s ease-in-out;
+  
+  }
+  
+  .btn.active {
+  background-color:transparent;
+  }
+  #ta{
+    background-color: #050505d0;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+
+.te{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  margin-top: 20px;
+}
+#ta h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#ta1{
+  width:59%;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}.ti{
+    text-decoration: none;
+   background-color:transparent;
+    color: white;
+    border: none;
+    transition: .4s ease-in-out;
+    height:60px;
+    overflow: hidden;
+    width: 48%;
+    margin-left: 10%;
+  } 
+  .tu{
+    text-decoration: none;
+   background-color: #1f2020;
+    color: white;
+    border: none;
+    transition: .4s ease-in-out;
+    padding: 0;
+    height:60px;
+    overflow: hidden;
+    width: 43%;
+    font-size: 10px;
+    border: 1px solid white;
+  } 
+   .tu:hover{
+ background-color:rgb(0,73,133) ;
+ color:rgb(0,73,133) ;
+  transition: .4s ease-in-out;
+  border:0;
+}
+}
+
+@media screen and (max-width:767px) {
+      
+  .navbar-nav{
+      background: rgba(0,73,133);
+      width: 50%;
+      height: 100vh;
+      margin-left: -15px;
+      margin-top: 2px;
+  }
+  .SBlank{
+      background-color: black;
+  }
+  .btnn{
+    border: none;
+    outline: none;
+    padding: 2px;
+  }
+  nav ul .nav-item:hover{
+      background-color: rgba(0, 0, 0, 0.212);
+  }
+}
+@media screen and (max-width:992px) {
+  /* nav .logo{
+      width: 10%;
+  }
+  nav img{
+      width: 120px;
+      margin-left: 10%;
+  } */
+  div >.navcont{
+      width: 70%;
+  }
+  .Ftop .Fcom{
+      width: 100%;
+      text-align:justify  ;
+      /* margin:  0 10%; */
+  }
+  .Fbottom .FBcom{
+      width: 80%;
+      margin: 20px 10%;
+}
+.Flast .Ficon{
+    width: 100%;
+    /* text-align: right; */
+}
+.Ficon img{
+    width: 30px;
+}
+.btnn{
+  border: none;
+  outline: none;
+  padding: 12px 5px;
+}
+.Flast .FCright{
+    width: 100%;
+    text-align: center;
+}
+
+}
