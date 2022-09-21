@@ -1,0 +1,60 @@
+  /* RESPONSIVE CSS for Tab
+  -------------------------------------------------- */
+  
+  @media screen and (max-width:992px) {
+    nav .logo{
+        width: 20%;
+    }
+    nav img{
+        width: 120px;
+        /* float: left; */
+        margin-left: 10%;
+    }
+    div >.navcont{
+        width: 70%;
+    }
+    .secondSec .one,.secondSec .two,.secondSec .three{
+        float: none;
+        width: 90%;
+        margin: 20px;
+    }
+    .serviceSec,.textSec{
+        width: 100%;
+        /* height: auto; */
+        margin:0px;
+        float: none;
+    }
+    .plan{
+        float: left;
+        width: 50%;
+        /* margin: 0 5%; */
+    }
+    /* .serviceSec{
+        text-align: center;
+         margin: 0;
+    }
+    .thirdSec h4{
+        margin-right:170px;
+    } */
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width:1064px){
+
+    nav .logo{
+        width: 25%;
+    }
+    nav img{
+        width: 120px;
+        /* float: left; */
+        margin-left: 10%;
+    }
+    div >.navcont{
+        width: 70%;
+    }
+  }

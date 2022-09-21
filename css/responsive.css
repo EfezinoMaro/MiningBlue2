@@ -1,0 +1,158 @@
+ /* =============About US ================================================== */
+  /* On screens that are 992px wide or less,*/
+  @media screen and (max-width: 992px) {
+     
+    .image{
+        height:80%;width:70%;
+       margin:0 20%;overflow: hidden;
+    }
+    .texts{
+        height:73%;width:63.3%;
+        margin:10px 20%;
+    }
+    .specialties{
+        width:100%;height:auto;background-color: black;
+        display:flex;flex-wrap: wrap;
+    }
+    .specialties .special1,.special2,.special3,.special4{
+        width:50%;height:100%;color: white; background-color: rgb(38, 37, 34);
+    }
+    .special1{text-align: center;padding:40px;}
+    .special1 .link1{
+        width:30%;margin:auto;background-color:rgb(0, 73, 133);padding:3px;
+        border-radius:7px;
+    }
+    .special1{background-color: rgb(26, 25, 25);}
+    .special2{background-color: black;padding-bottom:75px;}
+    .special3{background-color: black;padding-bottom:75px;}
+    .special4{background-color: rgb(26, 25, 25);padding-bottom:75px;}
+  .gallery{
+    width:100%;height:auto;background-color: black; padding:7% 7%;color: white;
+    text-align:center;}
+    .gallery .link1{
+        text-align: center;font-weight:600;font-size:1.2rem;
+        width:20%;margin:auto;background-color:rgb(0, 73, 133);padding:3px;
+        border-radius:7px;
+    }
+    .gallery .txt{
+        width:70%;margin: auto;
+    }.gallContainer{
+        width:100%;margin-top:7%;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallContainer .gall7{margin-left:15%;}
+    .gallContainer .gall{
+        overflow: hidden;border:1px solid transparent;
+        width:33%;height:43%;}
+        .sponsors{
+            display: flex;margin: auto;gap:10px;
+             width:70%;height:200px; background-color:  rgba(0, 128, 0, 0);
+         }
+         .sponsors .sponsor{
+            margin:auto;
+            width:35%;}
+
+
+
+
+  }
+ 
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 773px) {
+    .about{
+      overflow-x: hidden;
+    }
+    .texts{
+        height:73%;width:70%;
+        margin:10px 20%;overflow: hidden;
+    }
+
+    .specialties{
+        width:100%;height:auto;background-color: black;
+        flex-wrap: wrap;
+    }
+    .specialties .special1,.special2,.special3,.special4{
+        width:100%;height:30%;color: white; background-color: rgb(38, 37, 34);
+    }
+    .special1{text-align: center;padding:40px;}
+    .special1 .link1{
+        width:30%;margin:auto;background-color:rgb(0, 73, 133);padding:3px;
+        border-radius:7px;
+    }
+    .special1{background-color: rgb(26, 25, 25);}
+    .special2{background-color:black;padding-bottom:75px;}
+    .special3{background-color: rgb(26, 25, 25);padding-bottom:75px;}
+    .special4{background-color: black;padding-bottom:75px;}
+    .gallery{
+        width:100%;height:auto;background-color:rgb(26, 25, 25); padding:7% 7%;color: white;
+        text-align:center;}
+        .gallery .link1{
+            text-align: center;font-weight:600;font-size:1.2rem;
+            width:20%;margin:auto;background-color:rgb(0, 73, 133);padding:3px;
+            border-radius:7px;
+        }
+        .gallery .txt{
+            width:70%;margin: auto;
+        }.gallContainer{
+            width:100%;margin:7% 10%;
+            height:auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallContainer .gall7{margin-left:0%;}
+        .gallContainer .gall{
+            overflow: hidden;border:1px solid transparent;
+            width:40%;height:43%;}
+            .sponsors{
+                display: flex;gap:10px;overflow:auto;
+                 width:100%;height:200px; background-color:  rgba(0, 128, 0, 0);
+             }
+             .sponsors .sponsor{
+                width:40%;padding:8px;}
+
+
+  }
+  @media screen and (max-width:767px) {
+        
+  .navbar-nav{
+      background:rgb(0, 73, 133);
+      width: 50%;
+      height: 100vh;
+      margin-left: -15px;
+      margin-top: 2px;
+  }
+  nav ul .nav-item:hover{
+      background-color: rgba(0, 0, 0, 0.212);
+  }
+}
+
+
+
+  /* RESPONSIVE CSS for Tab
+  -------------------------------------------------- */
+  
+  @media screen and (max-width:992px) {
+    .Ftop .Fcom{
+        width: 100%;
+        text-align:justify  ;
+        /* margin:  0 10%; */
+    }
+    .Fbottom .FBcom{
+        width: 80%;
+        margin: 20px 10%;
+  }
+  .Flast .Ficon{
+      width: 100%;
+      /* text-align: right; */
+  }
+  .Ficon img{
+      width: 30px;
+  }
+  .Flast .FCright{
+      width: 100%;
+      text-align: center;
+  }
+
+  }

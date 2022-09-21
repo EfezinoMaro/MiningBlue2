@@ -1,0 +1,65 @@
+@media screen and (max-width: 992px) {
+    .blogcontainer{
+        width:100%;height:auto;
+        display: flex;flex-wrap: wrap;gap:10px;margin:1% 10%;
+    }
+    .news{
+        overflow:auto;
+        width:40%;height:47%;background-color:rgb(26, 25, 25);;border-radius: 0px;
+    }
+    
+    .otherpages2{display: flex;margin: auto;
+        width:33%;height:40px;background-color: white;
+    }
+}
+
+
+
+@media screen and (max-width: 773px) {
+    .blogcontainer{
+        width:100%;height:auto;
+        display: flex;flex-wrap: wrap;gap:10px;margin:1% 15%;
+    }
+    .news{
+        overflow:auto;
+        width:70%;height:47%;background-color:rgb(26, 25, 25);;border-radius: 0px;
+    }
+
+    .otherpages{display: flex;margin: auto;
+        width:33%;height:40px;background-color: white;
+    }
+    
+    .otherpages2{display: flex;margin: auto;
+        width:33%;height:40px;background-color: white;
+    }
+    
+
+}
+
+
+/* RESPONSIVE CSS for Tab
+-------------------------------------------------- */
+
+@media screen and (max-width:992px) {
+  .Ftop .Fcom{
+      width: 100%;
+      text-align:justify  ;
+      /* margin:  0 10%; */
+  }
+  .Fbottom .FBcom{
+      width: 80%;
+      margin: 20px 10%;
+}
+.Flast .Ficon{
+    width: 100%;
+    /* text-align: right; */
+}
+.Ficon img{
+    width: 30px;
+}
+.Flast .FCright{
+    width: 100%;
+    text-align: center;
+}
+
+}
